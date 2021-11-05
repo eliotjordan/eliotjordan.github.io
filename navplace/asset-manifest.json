@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/navplace/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/navplace/static/js/main.4bbe7216.chunk.js",
+    "main.js.map": "/navplace/static/js/main.4bbe7216.chunk.js.map",
+    "runtime-main.js": "/navplace/static/js/runtime-main.dd633f92.js",
+    "runtime-main.js.map": "/navplace/static/js/runtime-main.dd633f92.js.map",
+    "static/js/2.e2bd53c5.chunk.js": "/navplace/static/js/2.e2bd53c5.chunk.js",
+    "static/js/2.e2bd53c5.chunk.js.map": "/navplace/static/js/2.e2bd53c5.chunk.js.map",
+    "static/js/3.3d114acb.chunk.js": "/navplace/static/js/3.3d114acb.chunk.js",
+    "static/js/3.3d114acb.chunk.js.map": "/navplace/static/js/3.3d114acb.chunk.js.map",
+    "static/js/4.32556987.chunk.js": "/navplace/static/js/4.32556987.chunk.js",
+    "static/js/4.32556987.chunk.js.map": "/navplace/static/js/4.32556987.chunk.js.map",
+    "static/js/5.2af74961.chunk.js": "/navplace/static/js/5.2af74961.chunk.js",
+    "static/js/5.2af74961.chunk.js.map": "/navplace/static/js/5.2af74961.chunk.js.map",
+    "static/js/6.63d1805f.chunk.js": "/navplace/static/js/6.63d1805f.chunk.js",
+    "static/js/6.63d1805f.chunk.js.map": "/navplace/static/js/6.63d1805f.chunk.js.map",
+    "static/js/7.ae59e4d9.chunk.js": "/navplace/static/js/7.ae59e4d9.chunk.js",
+    "static/js/7.ae59e4d9.chunk.js.map": "/navplace/static/js/7.ae59e4d9.chunk.js.map",
+    "static/js/8.261a8a4e.chunk.js": "/navplace/static/js/8.261a8a4e.chunk.js",
+    "static/js/8.261a8a4e.chunk.js.map": "/navplace/static/js/8.261a8a4e.chunk.js.map",
+    "static/js/9.6770a2a9.chunk.js": "/navplace/static/js/9.6770a2a9.chunk.js",
+    "static/js/9.6770a2a9.chunk.js.map": "/navplace/static/js/9.6770a2a9.chunk.js.map",
+    "index.html": "/navplace/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/navplace/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.e2bd53c5.chunk.js.LICENSE.txt": "/navplace/static/js/2.e2bd53c5.chunk.js.LICENSE.txt",
+    "static/js/3.3d114acb.chunk.js.LICENSE.txt": "/navplace/static/js/3.3d114acb.chunk.js.LICENSE.txt",
+    "static/js/4.32556987.chunk.js.LICENSE.txt": "/navplace/static/js/4.32556987.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd633f92.js",
+    "static/js/2.e2bd53c5.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.4bbe7216.chunk.js"
+  ]
+}
