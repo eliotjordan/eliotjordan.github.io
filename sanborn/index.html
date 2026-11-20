@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sanborn Mosaic Explorer</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <header>
+    <h1>Sanborn Mosaic Explorer</h1>
+    <p>Georeferenced Sanborn fire insurance atlases of New Jersey. Zoom in on an area to load its mosaic.</p>
+    <div id="progress" class="progress" hidden>
+      <div class="progress-line"><strong id="progress-count"></strong><span id="progress-percent"></span></div>
+      <div class="meter" role="img" aria-labelledby="progress-count"><div id="progress-bar"></div></div>
+      <div class="progress-note" id="progress-note"></div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <label>Mosaic opacity <input class="grow" id="opacity" type="range" min="0" max="1" step="0.05" value="1"></label>
+    <label>Basemap
+      <select class="grow" id="basemap">
+        <option value="osm">OpenStreetMap</option>
+        <option value="imagery">Aerial imagery (Esri)</option>
+      </select>
+    </label>
+    <label>Basemap opacity <input class="grow" id="basemap-opacity" type="range" min="0" max="1" step="0.05" value="0.85"></label>
+    <label><input id="markers" type="checkbox"> Show control points</label>
+    <div class="buttons">
+      <button id="home" type="button">New Jersey</button>
+      <button id="show-all" type="button">Show all</button>
+      <button id="hide-all" type="button">Hide all</button>
+    </div>
+  </div>
+
+  <div class="filters">
+    <div class="search">
+      <input id="search" type="search" placeholder="Search by place, county or year" aria-label="Search atlases" autocomplete="off" spellcheck="false">
+      <button id="clear-search" type="button" hidden>Clear</button>
+    </div>
+    <div class="years">
+      <div class="years-head">
+        <span>Published</span>
+        <input id="year-from" type="number" aria-label="From year">
+        <span>to</span>
+        <input id="year-to" type="number" aria-label="To year">
+        <button id="reset-years" type="button" hidden>Reset</button>
+      </div>
+      <div class="chart-wrap">
+        <svg id="chart" role="img" aria-label="Atlases by year of publication"></svg>
+        <div id="chart-tip" class="chart-tip" hidden></div>
+        <div class="range">
+          <input id="range-from" type="range" step="1" aria-label="From year">
+          <input id="range-to" type="range" step="1" aria-label="To year">
+        </div>
+        <div class="axis"><span id="axis-min"></span><span id="axis-max"></span></div>
+      </div>
+    </div>
+    <div id="match-count" class="match-count"></div>
+  </div>
+
+  <div id="list"><div class="empty">Loading atlases...</div></div>
+</aside>
+<div id="map"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
